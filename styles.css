@@ -22,8 +22,10 @@
 body {
   font-family: "Outfit", sans-serif;
   font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.001rem;
   line-height: 1.6;
-  color: var(--dark-charcoal);
+  color: var(--wenge-brown);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,9 +43,9 @@ body {
 .recipe {
   max-width: 736px;
   width: 100%;
-  border-radius: 15px;
-  background-color: aliceblue;
-  padding: 15px;
+  border-radius: 24px;
+  background-color: var(--white);
+  padding: 40px;
   margin: 130px 0;
 }
 
@@ -53,4 +55,17 @@ body {
 
 .recipe__image {
   width: 100%;
+  border-radius: 13px;
+  margin-bottom: 32px;
+}
+
+.recipe__header-box {
+  /* background-color: aquamarine; */
+}
+
+.recipe__title {
+  font-family: "Young Serif", sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  color: var(--dark-charcoal);
 }
