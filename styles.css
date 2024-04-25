@@ -56,7 +56,7 @@ body {
 .recipe__image {
   width: 100%;
   border-radius: 13px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .recipe__header-box {
@@ -68,4 +68,120 @@ body {
   font-size: 40px;
   font-weight: lighter;
   color: var(--dark-charcoal);
+  margin-bottom: 15px;
+}
+
+.recipe__subtitle {
+  margin-bottom: 25px;
+}
+
+.recipe__time-box {
+  background-color: var(--rose-white);
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.recipe__time-heading {
+  color: var(--dark-raspberry);
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.recipe__time-list {
+  margin-left: 25px;
+}
+
+.recipe__time-list li {
+  margin-bottom: 5px;
+  /* margin-left: 5px; */
+}
+
+.recipe__time-list strong {
+  margin-left: 10px;
+}
+
+.recipe__ingredients-box {
+  /* background-color: aquamarine; */
+  margin-bottom: 33px;
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 33px;
+}
+
+.recipe__ingredients-box-heading {
+  color: var(--nutmeg);
+  font-size: 27px;
+  font-family: "Young Serif", sans-serif;
+  margin-bottom: 15px;
+}
+
+.recipe__ingredients-box-list {
+  margin-left: 25px;
+}
+
+.recipe__ingredients-box-list p {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.recipe__instructions-box {
+  margin-bottom: 33px;
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 33px;
+}
+
+.recipe__instructions-heading {
+  color: var(--nutmeg);
+  font-size: 27px;
+  font-family: "Young Serif", sans-serif;
+  margin-bottom: 15px;
+}
+
+.recipe__instructions-list {
+  margin-left: 25px;
+}
+
+.recipe__instructions-list p {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.recipe__instructions-list li::marker {
+  color: var(--dark-raspberry);
+  font-weight: bold;
+}
+
+.recipe__nutrition-header {
+  color: var(--nutmeg);
+  font-size: 27px;
+  font-family: "Young Serif", sans-serif;
+  margin-bottom: 15px;
+}
+
+.recipe__nutrition-subtext {
+  margin-bottom: 25px;
+}
+
+.nutrition-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.nutrition-table tr {
+  width: 100%;
+  display: block;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  padding: 8px 20px;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  width: 50%;
+}
+
+.nutrition-table th {
+  width: 50%; /* Adjust as needed */
 }
