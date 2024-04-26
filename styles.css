@@ -163,25 +163,26 @@ body {
   margin-bottom: 25px;
 }
 
-.nutrition-table {
-  border-collapse: separate;
-  border-spacing: 0;
+.recipe__nutrition-table {
   width: 100%;
+  /* background-color: var(--rose-white); */
+  border-collapse: collapse;
 }
 
-.nutrition-table tr {
-  width: 100%;
-  display: block;
+.recipe__nutrition-table tr {
+  border-bottom: 1px solid var(--light-grey);
 }
 
-.nutrition-table th,
-.nutrition-table td {
-  padding: 8px 20px;
-  border-bottom: 1px solid #000;
-  text-align: left;
-  width: 50%;
+.recipe__nutrition-table tr:last-child {
+  border-bottom: none;
 }
 
-.nutrition-table th {
-  width: 50%; /* Adjust as needed */
+.recipe__nutrition-table td {
+  padding: 12px 0 12px 30px;
+  /* border-bottom: 1px solid var(--light-grey); */
+}
+
+.recipe__nutrition-table tr td:nth-child(2) {
+  color: var(--nutmeg);
+  font-weight: 700;
 }
