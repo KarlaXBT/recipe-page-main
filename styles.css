@@ -186,3 +186,31 @@ body {
   color: var(--nutmeg);
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  .recipe {
+    max-width: none;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .recipe__image {
+    border-radius: 0;
+  }
+
+  main {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  main {
+    margin: 0 25px;
+  }
+
+  .recipe__title {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+}
